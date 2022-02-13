@@ -7,6 +7,8 @@ using Task2_1_2.Figures;
 using Task2_1_2.Figures.Shapes;
 using Task2_1_2.Interfaces;
 using Task2_1_1ClassLib;
+using Task2_1_2.Figures.Circles;
+using Task2_1_2.Figures.Polygonals;
 
 namespace Task2_1_2
 {
@@ -196,7 +198,7 @@ namespace Task2_1_2
             return new Triangle(point1, point2, point3);
         }
 
-        private static Rectangle CreateRect(FigureType rectType)
+        private static Square CreateRect(FigureType rectType)
         {
             Console.WriteLine($"Enter {rectType} start point: ");
             Point startPoint = CreatePoint();

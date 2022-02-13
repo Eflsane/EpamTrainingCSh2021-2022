@@ -8,21 +8,9 @@ namespace Task2_1_2.Figures
 {
     class Point : Figure
     {
-        public override string Name => "Point";
-
         double x;
-        public double X
-        {
-            get => x;
-            private set => x = value;
-        }
+        
         double y;
-
-        public double Y
-        {
-            get => y;
-            private set => y = value;
-        }
 
         public Point(double x, double y)
         {
@@ -30,10 +18,26 @@ namespace Task2_1_2.Figures
             Y = y;
         }
 
+        public override string Name => "Point";
+
+        public double X
+        {
+            get => x;
+            private set => x = value;
+        }
+
+        public double Y
+        {
+            get => y;
+            private set => y = value;
+        }
+
         public override string ToString()
         {
             return base.ToString() + $" x = {X}; y = {Y}";
         }
+
+        public override int Color { get; set; }
 
         public override void Display()
         {

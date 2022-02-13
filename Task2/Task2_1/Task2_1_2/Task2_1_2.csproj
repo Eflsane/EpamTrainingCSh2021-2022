@@ -47,25 +47,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Figures\Shapes\Circle.cs" />
-    <Compile Include="Figures\Shapes\Circumference.cs" />
+    <Compile Include="Figures\Circles\Circle.cs" />
+    <Compile Include="Figures\Circles\Circumference.cs" />
     <Compile Include="Figures\Figure.cs" />
-    <Compile Include="Figures\Shapes\Rectangle.cs" />
-    <Compile Include="Figures\Shapes\Ring.cs" />
+    <Compile Include="Figures\Polygonals\Rectangle.cs" />
+    <Compile Include="Figures\Circles\Ring.cs" />
     <Compile Include="Interfaces\IDisplayable.cs" />
     <Compile Include="Interfaces\IMoveable.cs" />
-    <Compile Include="Figures\Shapes\Line.cs" />
+    <Compile Include="Figures\Line.cs" />
     <Compile Include="Figures\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Figures\Shapes\Shape.cs" />
     <Compile Include="Interfaces\ISquareable.cs" />
-    <Compile Include="Figures\Shapes\Square.cs" />
-    <Compile Include="Figures\Shapes\Triangle.cs" />
+    <Compile Include="Figures\Polygonals\Square.cs" />
+    <Compile Include="Figures\Polygonals\Triangle.cs" />
     <Compile Include="UIConsole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -14,6 +14,12 @@ namespace Task2_1_2.Figures
             get;
         }
 
+        public abstract int Color
+        {
+            get;
+            set;
+        }
+
         public override string ToString()
         {
             return Name;
