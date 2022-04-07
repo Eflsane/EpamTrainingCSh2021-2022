@@ -1,0 +1,20 @@
+.menu {
+    max-width: 200px;
+    background-color: rgb(232, 201, 127);
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 5px 5px darkred;
+}
+
+.menu-list {
+    margin:0;
+	padding: 12px;
+    
+    list-style: none;
+    color: brown;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu-item {
+    padding-bottom: 3px;
+}

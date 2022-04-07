@@ -1,0 +1,47 @@
+body{
+    margin:0;
+}
+
+.pointer
+{
+    content: "";
+    position: relative;
+    width: 0; 
+    height: 0;
+    border-left: 56px solid transparent;
+    border-right: 56px solid transparent;
+    border-bottom: 56px solid rgb(145, 183, 255);
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.pointer::before
+{
+    content: "";
+    z-index: -1;
+    position: relative;
+    left: -59px;
+    top: -25px;
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 60px solid rgb(139, 240, 242);
+}
+
+.rect
+{
+    z-index: -2;
+    height: 83px;
+    margin-top: -12px;
+    position: relative;
+    background: rgb(145, 183, 255);
+    border: 4px solid rgb(139, 240, 242);
+}
+
+.text{
+    text-align: center;
+    line-height: 46px;
+    color: white;
+}
