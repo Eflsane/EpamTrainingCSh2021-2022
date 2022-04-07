@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+}
+
+.all-container {
+    background-color: cornflowerblue;
+    border: 3px solid blue;
+    color: white;
+    max-width: 500px;
+    font-weight: lighter;
+}
+
+.header-container {
+    border-bottom: 1px solid white;
+}
+
+.header-insides {
+    font-size: 26px;
+    padding: 16px;
+}
+
+.reg-container {
+    padding: 16px;
+}
+
+.reg-form {
+    font-size: 15px;
+}
+
+.form-fields {
+
+}
+
+.texts {
+    margin-bottom: 0px;
+}
+
+.email-inputs {
+    width: 400px;
+}
+
+.passwords {
+    display: inline-block;
+}
+
+#password-main {
+    margin-right: 15px;
+}
+
+.password-inputs {
+    width: 186px;
+}
+
+#button-container {
+    padding-top: 20px;
+}
+
+
+#button-send {
+    background-color: rgb(216, 216, 1);
+    color: black;
+    width: 90px;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+}
